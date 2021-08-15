@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Expense Tracker</title>
+</head>
+<body class="body">
+    <div class="allBox">
+        <div class="inBoxAll">
+            <h1 class="title">expense tracker</h1>
+
+            <p class="balanceTitle">Your balance</p>
+            <p class="balance">$0</p>
+
+            <div class="incomeExpenseBox">
+                <div class="incomeBox">
+                    <p class="incomeTitle">Income</p>
+                    <p class="income">$0</p>
+                </div>
+                <div class="expenseBox">
+                    <p class="expenseTitle">Expense</p>
+                    <p class="expense">$0</p>
+                </div>
+            </div>
+
+            <p class="historyTitle">History</p>
+
+            <div class="historyBox">
+            </div>
+
+        </div>
+
+        <p class="newTransactionTitle">Add new transaction</p>
+
+        <form class="addTransaction">
+            <label for="text" class="formLabel">Text</label>
+            <input type="text" class="formInput" id="text" name="text" placeholder="Enter text..." required>
+
+            <label for="negativePositive" class="formLabel">Amount</label>
+            <label for="negativePositive" class="formLabel">(negative - expense, positive - income)</label>
+            <input type="number" name="negativePositive" id="negativePositive" class="formInput" placeholder="Enter amount..." required>
+
+            <button class="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

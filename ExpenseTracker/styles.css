@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: rgb(219, 219, 219);
+}
+
+.allBox {
+    width: 500px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.allBox .title {
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 30px;
+    text-transform: capitalize;
+    padding-bottom: 40px;
+}
+
+.allBox .balanceTitle {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+
+.allBox .balance {
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.allBox .incomeExpenseBox {
+    display: flex;
+    background: #fff;
+    box-shadow: 0px 0px 10px  grey;
+    margin-bottom: 30px;
+}
+
+.allBox .incomeExpenseBox .incomeBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-right: 1px solid rgb(219, 219, 219);
+}
+
+.allBox .incomeExpenseBox .incomeBox .income {
+    color: rgb(73, 219, 54);
+}
+
+.allBox .incomeExpenseBox .expenseBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.allBox .incomeExpenseBox .expenseBox .expense {
+    color: rgb(236, 32, 32);
+}
+
+.allBox .historyTitle {
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-bottom: 1px solid rgb(78, 78, 78);
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.allBox .historyBox {
+    margin-bottom: 35px;
+}
+
+.allBox .historyBox .inHistoryBoxPositive {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    background: #fff;
+    box-shadow: 0px 0px 10px  grey;
+    margin-bottom: 7px;
+} 
+
+
+.allBox .historyBox .inHistoryBoxPositive .historyPara {
+    padding-left: 10px;
+
+}
+
+.allBox .historyBox .inHistoryBoxPositive .historyNumber {
+    padding-right: 10px;
+    color: rgb(73, 219, 54);
+}
+
+.allBox .historyBox .inHistoryBoxPositive .far {
+    padding-right: 10px;
+    color: rgb(236, 32, 32);
+}
+
+
+.allBox .historyBox .inHistoryBoxNegative {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    background: #fff;
+    box-shadow: 0px 0px 10px  grey;
+    margin-bottom: 7px;
+} 
+
+.allBox .historyBox .inHistoryBoxNegative .historyPara {
+    padding-left: 10px;
+
+}
+
+.allBox .historyBox .inHistoryBoxNegative .historyNumber {
+    padding-right: 10px;
+    color: rgb(236, 32, 32);
+}
+
+.allBox .historyBox .inHistoryBoxNegative .far {
+    padding-right: 10px;
+    color: rgb(236, 32, 32);
+}
+
+.allBox .newTransactionTitle {
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-bottom: 1px solid rgb(78, 78, 78);
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.allBox .addTransaction .formLabel {
+    display: block;
+    padding-bottom: 5px;
+}
+
+.allBox .addTransaction .formInput {
+    width: 50%;
+    height: 35px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.allBox .addTransaction .submit {
+    width: 100%;
+    height: 35px;
+    background: #9c88ff;
+    text-align: center;
+    margin-top: 5px;
+    border: 0px;
+}
